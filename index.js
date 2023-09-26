@@ -10,7 +10,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const httpStatusText = require("./utils/httpStatusText");
-const path = require("node:path");
+const path = require("path");
 
 const mongoose = require("mongoose");
 
